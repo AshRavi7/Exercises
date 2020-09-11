@@ -1,9 +1,3 @@
-# Define a recursive Python function named `custom_sort`
-# that consumes one argument `num_list`, a list of numbers.
-# The function returns a new list containg the same numbers but in sorted order.
-# Hint: Using the [Merge Sort](https://en.wikipedia.org/wiki/Merge_sort) algorithm is the most efficient way to solve this question.
-
-# Write your solution here
 def custom_sort(num_list):
     if len(num_list) > 1:
         mid = len(num_list) // 2

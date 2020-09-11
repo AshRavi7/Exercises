@@ -1,4 +1,4 @@
-import math
+from math import sqrt as sq
 class Vector3D:
     def __init__(self, x=0, y=0, z=0):
         self.x = x
@@ -9,7 +9,7 @@ class Vector3D:
         return '(x = '+ str(self.x) + ', y = '+ str(self.y) + ', z = '+ str(self.z) + ')'
 
     def magnitude(self):
-            return math.sqrt(self.x**2 + self.y**2 + self.z**2)
+            return sq(self.x**2 + self.y**2 + self.z**2)
     
     def __lt__(self, other):
         return self.magnitude() < other.magnitude()

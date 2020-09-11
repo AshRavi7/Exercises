@@ -1,11 +1,11 @@
 def test_solution():
     import solution
 
-    vec1 = solution.Vector3D(-4, -4, 1)
-    vec2 = solution.Vector3D(4, 4, 1)
-    vec3 = solution.Vector3D(4, 4, 1)
+    vector_a = solution.Vector3D(-9, -9, 5)
+    vector_b = solution.Vector3D(11, 11, 3)
+    vector_c = solution.Vector3D(11, 11, 3)
 
-    assert not (vec1 == vec2)
-    assert not (vec1 == vec3)
-    assert vec3 == vec3
-    assert vec1 == vec1
+    assert vector_c == vector_c
+    assert not (vector_a == vector_b)
+    assert not (vector_a == vector_c)
+    

@@ -1,6 +1,6 @@
-def fib(n): 
-    return n if n <= 1 else fib(n-1) + fib(n-2)
+def fibo(n): 
+    return n if n <= 1 else fibo(n-1) + fibo(n-2)
 
 def count_ways(steps): 
-    return fib(steps + 1)
+    return fibo(steps + 1)
 

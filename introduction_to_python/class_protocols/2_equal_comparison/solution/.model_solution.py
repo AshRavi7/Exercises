@@ -5,6 +5,4 @@ class Vector3D:
         self.z = z
     
     def __eq__(self, other):
-        return (self.x == other.x and 
-                self.y == other.y and 
-                self.z == other.z)
+        return (self.x == other.x and self.y == other.y and self.z == other.z)
